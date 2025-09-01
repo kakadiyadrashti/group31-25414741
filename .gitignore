@@ -1,0 +1,157 @@
+# Project-specific ignores
+
+# Cookiecutter data layout
+data/
+data/raw/
+data/interim/
+data/processed/
+
+# Models & artifacts
+models/
+models/*.pkl
+models/*.joblib
+models/*.sav
+models/*.h5
+
+# Outputs from notebooks (plots/exports/submissions)
+outputs/
+reports/
+reports/figures/
+submissions/
+*.submission.csv
+submission.csv
+
+# Weights & Biases (experiment tracking)
+wandb/
+
+# Kaggle credentials (never commit!)
+kaggle.json
+.kaggle/
+
+# VS Code / local IDE stuff
+.vscode/
+.idea/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Python / notebooks (from GitHub Python.gitignore)
+# ---------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Databases / frameworks
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache
+.scrapy
+
+# MkDocs
+docs/site/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# pyenv / uv / poetry / pdm / pixi
+.pdm.toml
+.pdm-python
+.pdm-build/
+.pixi/
+__pypackages__/
+# lock files optional: uncomment if you DON'T want to track them
+# uv.lock
+# poetry.lock
+# pdm.lock
+# Pipfile.lock
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# mypy / pyre / pytype / ruff
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Cython
+cython_debug/
+
+# PyPI config
+.pypirc
+
+# Editors (optional)
+# .idea/
+# *.swp
+# *.swo
