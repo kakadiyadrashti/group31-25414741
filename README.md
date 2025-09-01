@@ -48,3 +48,28 @@ player_id,drafted
 1,0.10
 2,0.90
 3,0.20
+
+---
+
+### 📂 Repository Requirements
+
+This repository has been set up according to the assignment specifications:
+
+- ✅ Repository created under the required naming convention:  
+  **`group31-25414741` (owner: kakadiyadrashti)**  
+- ⚠️ Note: Repository is currently **public** instead of private.  
+- ✅ Structured using **Cookiecutter Data Science template**  
+- ✅ All notebooks stored in `notebooks/` with required naming convention  
+- ✅ Model artifacts stored in `models/`  
+- ✅ Includes `requirements.txt` and `pyproject.toml` at the root  
+
+**Admin access has been (or will be) granted to the following users:**
+- anthony.so@uts.edu.au  
+- reasmey.tith@uts.edu.au  
+- Natalia.Tkachenko@uts.edu.au  
+- Huy.Nguyen-1@uts.edu.au  
+- savinay.singh@uts.edu.au  
+- TheHai.Bui@uts.edu.au  
+
+---
+
